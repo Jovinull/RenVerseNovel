@@ -9,7 +9,7 @@ init offset = -2
 ## Chamar gui.init redefine os estilos para os valores padrão sensatos e define
 ## a largura e a altura do jogo.
 init python:
-    gui.init(1280, 720)
+    gui.init(1920, 1080)
 
 ## Habilitar verificações de propriedades inválidas ou instáveis em telas ou
 ## transformações
