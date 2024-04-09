@@ -51,7 +51,7 @@ translate None strings:
 
     # renpy/common/00accessibility.rpy:120
     old "Accessibility Menu. Use up and down arrows to navigate, and enter to activate buttons and bars."
-    new "Accessibility Menu. Use up and down arrows to navigate, and enter to activate buttons and bars."
+    new "Menu Acessibilidade. Use as setas para cima e para baixo para navegar e digite para ativar botões e barras."
 
     # renpy/common/00accessibility.rpy:139
     old "Font Override"
@@ -263,7 +263,7 @@ translate None strings:
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Aug"
-    new "{#month_short}Ago"
+    new "{#month_short}Agosto"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Sep"
@@ -275,11 +275,11 @@ translate None strings:
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Nov"
-    new "{#month_short}Nov"
+    new "{#month_short}Novembro"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Dec"
-    new "{#month_short}Dez"
+    new "{#month_short}Dezembro"
 
     # renpy/common/00action_file.rpy:258
     old "%b %d, %H:%M"
@@ -331,7 +331,7 @@ translate None strings:
 
     # renpy/common/00action_file.rpy:948
     old "Quick save complete."
-    new "Quick save completo"
+    new "Salvamento rápido completo"
 
     # renpy/common/00action_file.rpy:963
     old "Quick save."
@@ -435,7 +435,7 @@ translate None strings:
 
     # renpy/common/00director.rpy:1776
     old "Customize director.transforms to add more transforms."
-    new "Customize director.transforms to add more transforms."
+    new "Personalize o director.transforms para adicionar mais transformações."
 
     # renpy/common/00director.rpy:1788
     old "Behind:"
@@ -455,7 +455,7 @@ translate None strings:
 
     # renpy/common/00director.rpy:1822
     old "Customize director.transitions to add more transitions."
-    new "Customize director.transitions to add more transitions."
+    new "Personalize o director.transitions para adicionar mais transições."
 
     # renpy/common/00director.rpy:1834
     old "Channel:"
@@ -463,7 +463,7 @@ translate None strings:
 
     # renpy/common/00director.rpy:1845
     old "Customize director.audio_channels to add more channels."
-    new "Customize director.audio_channels to add more channels."
+    new "Personalize director.audio_channels para adicionar mais canais."
 
     # renpy/common/00director.rpy:1857
     old "Audio Filename:"
@@ -643,11 +643,11 @@ translate None strings:
 
     # renpy/common/00preferences.rpy:455
     old "clipboard voicing enable"
-    new "clipboard voicing enable"
+    new "ativação da voz da área de transferência"
 
     # renpy/common/00preferences.rpy:457
     old "clipboard voicing disable"
-    new "clipboard voicing disable"
+    new "voz da área de transferência desabilitada"
 
     # renpy/common/00preferences.rpy:461
     old "debug voicing"
@@ -655,11 +655,11 @@ translate None strings:
 
     # renpy/common/00preferences.rpy:464
     old "debug voicing enable"
-    new "debug voicing enable"
+    new "depuração de voz habilitada"
 
     # renpy/common/00preferences.rpy:466
     old "debug voicing disable"
-    new "debug voicing disable"
+    new "depurar voz desabilitada"
 
     # renpy/common/00preferences.rpy:470
     old "emphasize audio"
@@ -727,11 +727,11 @@ translate None strings:
 
     # renpy/common/00preferences.rpy:586
     old "restore window position"
-    new "restore window position"
+    new "restaurar a posição da janela"
 
     # renpy/common/00preferences.rpy:595
     old "reset"
-    new "reset"
+    new "resetar"
 
     # renpy/common/00preferences.rpy:608
     old "main volume"
@@ -791,7 +791,7 @@ translate None strings:
 
     # renpy/common/00speechbubble.rpy:408
     old "(clear retained bubbles)"
-    new "(clear retained bubbles)"
+    new "(limpar bolhas retidas)"
 
     # renpy/common/00sync.rpy:70
     old "Sync downloaded."
@@ -987,15 +987,15 @@ translate None strings:
 
     # renpy/common/00updater.rpy:2078
     old "An error occured when trying to download game data:"
-    new "An error occured when trying to download game data:"
+    new "Ocorreu um erro ao tentar baixar os dados do jogo:"
 
     # renpy/common/00updater.rpy:2083
     old "This game cannot be run until the game data has been downloaded."
-    new "This game cannot be run until the game data has been downloaded."
+    new "Este jogo não pode ser executado até que os dados do jogo sejam baixados."
 
     # renpy/common/00updater.rpy:2090
     old "Retry"
-    new "Retry"
+    new "Tentar novamente"
 
     # renpy/common/00compat.rpy:421
     old "Fullscreen"
@@ -1279,11 +1279,11 @@ translate None strings:
 
     # renpy/common/_developer/developer.rpym:69
     old "Show Translation Identifiers"
-    new "Show Translation Identifiers"
+    new "Mostrar identificadores de tradução"
 
     # renpy/common/_developer/developer.rpym:72
     old "Hide Translation Identifiers"
-    new "Hide Translation Identifiers"
+    new "Ocultar identificadores de tradução"
 
     # renpy/common/_developer/developer.rpym:77
     old "Speech Bubble Editor (Shift+B)"
@@ -1291,11 +1291,11 @@ translate None strings:
 
     # renpy/common/_developer/developer.rpym:81
     old "Show Filename and Line"
-    new "Show Filename and Line"
+    new "Mostrar nome do arquivo e linha"
 
     # renpy/common/_developer/developer.rpym:84
     old "Hide Filename and Line"
-    new "Hide Filename and Line"
+    new "Ocultar nome de arquivo e linha"
 
     # renpy/common/_developer/developer.rpym:127
     old "Layer [l]:"
@@ -1375,7 +1375,7 @@ translate None strings:
 
     # renpy/common/_developer/developer.rpym:657
     old "Click to open in editor."
-    new "Click to open in editor."
+    new "Clique para abrir no editor."
 
     # renpy/common/_developer/inspector.rpym:38
     old "Displayable Inspector"
