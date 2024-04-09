@@ -1,9 +1,4 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define mina = Character("Mina")
+﻿define mina = Character("Mina")
 define luna = Character("Luna")
 define voce = Character("Você")
 
@@ -16,6 +11,8 @@ image praca = "backgrounds/praca.jpg"
 
 image iconCopoCafe = "items/copocafe.png"
 
+image parabens = "parabens.png"
+
 image mina11 = "characters/mina/mina1-1.png"
 image mina12 = "characters/mina/mina1-2.png"
 image mina21 = "characters/mina/mina2-1.png"
@@ -25,27 +22,17 @@ image luna11 = "characters/luna/luna1-1.png"
 image luna12 = "characters/luna/luna1-2.png"
 image luna13 = "characters/luna/luna1-3.png"
 
-# The game starts here.
-
 label start:
 
     $ foiProCafe = False
     $ quantidadeCafe = 0
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    play music "musics/awesomeness.mp3" fadein 1.5
 
     scene park
     with pixellate
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
     show mina11
-
-    # These display lines of dialogue.
 
     "Você está andando pelo parque..."
     "..."
@@ -107,7 +94,6 @@ label conhecerBairro:
         "Continuar explorando a cidade":
             jump continuarPasseio
 
-    # This ends the game.
     return
 
 label comerBolachas:
@@ -221,9 +207,15 @@ label levarCasa:
             mina "Na verdade foram muitos cafés né... Eu estava distraida conversando com você e nem percebi"
             mina "Bom, eu PROMETO que depois irei te recompensar de alguma forma"
 
+    show parabens
+    with dissolve
+
 return
 
 label gameOver:
+
+    stop music fadeout 1.5
+    play music "musics/prepare_your_swords.mp3"
 
     scene ruasNoite
     with pixellate
@@ -246,5 +238,4 @@ label gameOver:
     "Então esse é o fim para você né?"
     "Mas não se preocupe existem outras chances"
 
-    # This ends the game.
     return
