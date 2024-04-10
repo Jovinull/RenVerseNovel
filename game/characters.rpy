@@ -1,6 +1,6 @@
-define mina = Character("Mina")
-define luna = Character("Luna")
-define voce = Character("Você")
+define mina = Character("Mina", color="#f018c8")
+define luna = Character("Luna", color="#000000")
+define voce = Character("[nomeProtagonista]")
 
 # Mina
 image mina11 = "characters/mina/mina1-1.png"
