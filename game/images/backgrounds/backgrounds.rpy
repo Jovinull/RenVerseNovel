@@ -1,0 +1,6 @@
+image park = "backgrounds/park.jpg"
+image ruas = "backgrounds/ruas.jpg"
+image ruasNoite = "backgrounds/ruasnoite.jpg"
+image cafe = "backgrounds/cafe.jpg"
+image distritoComercial = "backgrounds/distritocomercial.png"
+image praca = "backgrounds/praca.jpg"
