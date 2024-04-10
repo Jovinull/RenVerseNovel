@@ -1,4 +1,4 @@
-abel gameOver:
+label gameOver:
 
     stop music fadeout 1.5
     play music "musics/prepare_your_swords.mp3"
