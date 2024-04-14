@@ -32,5 +32,5 @@ label continuarPasseio:
             "Você decide levar Mina para sua casa, oferecendo-lhe uma carona ou acompanhando-a até lá para garantir que chegue em segurança. Essa é uma oportunidade para prolongar o tempo juntos e continuar a conversa no conforto de um ambiente familiar."
             jump levarCasa
         "Voltar para casa":
-            "Você opta por voltar para casa, desfrutando do tempo que passaram juntos e deixando Mina seguir seu caminho. Embora você tenha gostado muito da companhia dela, você sabe que é hora de cada um seguir sua própria jornada.""
+            "Você opta por voltar para casa, desfrutando do tempo que passaram juntos e deixando Mina seguir seu caminho. Embora você tenha gostado muito da companhia dela, você sabe que é hora de cada um seguir sua própria jornada."
             jump gameOver
