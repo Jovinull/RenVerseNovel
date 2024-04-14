@@ -42,5 +42,6 @@ label levarCasa:
 
     show parabens
     with dissolve
+    "Parabéns!"
 
 return

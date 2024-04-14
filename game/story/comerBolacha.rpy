@@ -1,6 +1,8 @@
 label comerBolachas:
 
     hide mina11
+    scene sitting_room_dark
+    with pixellate
 
     "Depois de deixar Mina no parque, você decide seguir para casa sozinho. Enquanto caminha de volta, você se perde em seus próprios pensamentos, deixando a memória do encontro com ela para trás."
     "As horas passam rapidamente, e logo a noite cai sobre a cidade. Você chega em casa, ainda pensativo sobre o que aconteceu mais cedo."
@@ -10,5 +12,7 @@ label comerBolachas:
     "E assim, a noite passa serenamente, e uma nova manhã se aproxima, trazendo consigo novas possibilidades e aventuras."
 
     show parabens
+    with dissolve
+    "Parabéns!"
     return
     
