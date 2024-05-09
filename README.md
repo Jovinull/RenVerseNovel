@@ -14,13 +14,6 @@ O objetivo deste projeto é proporcionar um ambiente para aprendizado e prática
 - Exemplos de código para entender os conceitos fundamentais.
 - Recursos adicionais, como gráficos, músicas e efeitos sonoros para enriquecer suas visual novels.
 
-## Estrutura do Repositório
-
-- `tutoriais/`: Pasta contendo tutoriais detalhados para iniciantes.
-- `exemplos/`: Exemplos de código comentado para ilustrar diferentes funcionalidades do Ren'Py.
-- `recursos/`: Recursos adicionais para uso em suas visual novels, como imagens, músicas e sons.
-- `documentação/`: Documentação oficial do Ren'Py e links úteis para mais informações.
-
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você deseja adicionar um tutorial, exemplo de código ou recurso útil, sinta-se à vontade para abrir uma issue ou enviar um pull request.
